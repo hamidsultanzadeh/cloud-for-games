@@ -1,0 +1,23 @@
+<GamerProfile>
+	<SoundProfile MusicEnabled="1" MasterVolume="2" />
+	<RenderProfile MultiSampleMode="0" AlphaToCoverage="0" ResolutionX="1280" ResolutionY="600" Quality="optimal" Fullscreen="1" Maximized="0" ForceWidescreen="0" WidescreenFOV="0" AspectRatio="0" VSync="0" RefreshRate="60" DisableMip0Loading="0" MaxDriverBufferedFrames="0" Platform="d3d9" ShowFPS="0" ClustersZPassMaxLOD="1" Brightness="1.02" Contrast="1" GammaRamp="0.995" GammaRampR="1" GammaRampG="1" GammaRampB="1" AllowAsynchShaderLoading="1">
+		<CustomQuality>
+			<quality ResolutionX="800" ResolutionY="600" EnvironmentQuality="low" AntiPortalQuality="high" PostFxQuality="low" TextureQuality="low" TextureResolutionQuality="low" WaterQuality="low" DepthPassQuality="low" VegetationQuality="low" TerrainQuality="low" GeometryQuality="low" AmbientQuality="low" ShadowQuality="off" Hdr="0" HdrFP32="0" Bloom="0" id="custom" />
+			<quality ResolutionX="800" ResolutionY="600" EnvironmentQuality="high" AntiPortalQuality="high" PostFxQuality="high" TextureQuality="high" TextureResolutionQuality="high" WaterQuality="high" DepthPassQuality="high" VegetationQuality="high" TerrainQuality="high" GeometryQuality="high" AmbientQuality="high" ShadowQuality="high" Hdr="1" HdrFP32="1" Bloom="1" id="customd3d10" />
+		</CustomQuality>
+	</RenderProfile>
+	<NetworkProfile CustomMapMaxUploadRateOnline="10240" OnlineEnginePort="9000" OnlineServicePort="9001" FileTransferHostPort="9002" FileTransferClientPort="9003" LanBroadcastPort="9004" ScanFreePorts="1" ScanPortRange="1000" ScanPortStart="9000" SessionProvider="" DetectPublicAddress="1" MaxUploadOnline="768">
+		<Accounts />
+	</NetworkProfile>
+	<GameProfile Sensitivity="0.9" Invert_y="0" UseMouseSmooth="0" Smoothness="1" Smoothness_Ironsight="1" HelpCrosshair="0" UseCompassMiniMap="1" UseRoadSignHilight="1" UseSubtitles="1" UseAmbx="0" Autosave="1" Machete="0" DifficultyLevel="1" ClanTag="">
+		<FireConfig QualitySetting="VeryHigh" />
+	</GameProfile>
+	<RealTreeProfile Quality="VeryHigh">
+		<CustomQuality />
+	</RealTreeProfile>
+	<EngineProfile>
+		<PhysicConfig QualitySetting="VeryHigh" />
+		<QcConfig GatherFPS="1" GatherAICnt="1" IsQcTester="0" />
+		<InputConfig />
+	</EngineProfile>
+</GamerProfile>
